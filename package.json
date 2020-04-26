@@ -1,0 +1,12 @@
+{
+  "name": "chatbox",
+  "version": "1.0.0",
+  "description": "Realtime chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "nodemon server"
+  },
+  "author": "Tanmoy Mandal",
+  "license": "ISC"
+}
