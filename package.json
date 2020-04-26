@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "node server",
-    "start": "nodemon server"
+    "start": "nodemon server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "author": "Tanmoy Mandal",
   "license": "ISC",
@@ -16,6 +17,6 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.3"
   }
 }
